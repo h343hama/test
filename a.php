@@ -2,6 +2,6 @@
 <?php 
   foreach(file('/usr/share/dict/linux.words') as $line){
     if ( strpos( $line, "abc" ) ) {
-      echo $line
+      echo "$line";
   } 
 ?>
